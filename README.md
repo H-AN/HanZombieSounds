@@ -119,20 +119,20 @@ Configuration Example
   "ZombieSounds": {
     "ZombieList": [
   	{
-  		"Name": "Zombienormal1",  //Enter the name of the zombie that matches the name of the zombie in the zombie riot.
-  		"Enable": true, // Overall on/off switch
-      "Volume": 1.0, // Overall volume ratio
-      "HurtSound": "han.zombie.manclassic_hurt", // Hurt sound effect
-      "DieSound": "han.zombie.manclassic_death", // Death sound effect
-      "PainSound": "han.zombieplague.zpain", // Headshot pain sound effect
-      "IdleSound": "han.hl.nihilanth.idle,han.hl.nihilanth.idleb,han.hl.nihilanth.idlec", // Idle sound effect
-      "IdleInterval": 180.0, // Idle interval duration (randomly selects a number between 0 and 180 as the start of the idle interval, and then plays the next interval accordingly)
-      "BurnSound": "han.zombieplague.zburn", // Sound effect played when burned by an incendiary bomb
-      "ExplodeSound": "han.zombieplague.zbrains", // Sound effect played when hit by a grenade
-      "HitSound": "han.zombie.classic_hit", // Sound effect played when a zombie attacks a human or teammate
-      "HitWallSound": "han.zombie.classic_hitwall", // Sound effect played when a zombie attacks a wall
-      "SwingSound": "han.zombie.classic_swing", // Sound effect played when a zombie swings its arms in mid-air
-      "PrecacheSounds": "soundevents/hanzbplayers.vsndevts", // Pre-cached sound event files
+        "Name": "Zombienormal1",  //Enter the name of the zombie that matches the name of the zombie in the zombie riot.
+        "Enable": true, // Overall on/off switch
+        "Volume": 1.0, // Overall volume ratio
+        "HurtSound": "han.zombie.manclassic_hurt", // Hurt sound effect
+        "DieSound": "han.zombie.manclassic_death", // Death sound effect
+        "PainSound": "han.zombieplague.zpain", // Headshot pain sound effect
+        "IdleSound": "han.hl.nihilanth.idle,han.hl.nihilanth.idleb,han.hl.nihilanth.idlec", // Idle sound effect
+        "IdleInterval": 180.0, // Idle interval duration (randomly selects a number between 0 and 180 as the start of the idle interval, and then plays the next interval accordingly)
+        "BurnSound": "han.zombieplague.zburn", // Sound effect played when burned by an incendiary bomb
+        "ExplodeSound": "han.zombieplague.zbrains", // Sound effect played when hit by a grenade
+        "HitSound": "han.zombie.classic_hit", // Sound effect played when a zombie attacks a human or teammate
+        "HitWallSound": "han.zombie.classic_hitwall", // Sound effect played when a zombie attacks a wall
+        "SwingSound": "han.zombie.classic_swing", // Sound effect played when a zombie swings its arms in mid-air
+        "PrecacheSounds": "soundevents/hanzbplayers.vsndevts", // Pre-cached sound event files
   	},
   	{
   		"Name": "Zombienormal2",
