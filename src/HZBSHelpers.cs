@@ -34,7 +34,7 @@ public class HZBSHelpers
         if (!string.IsNullOrEmpty(SoundEvent))
         {
             var sound = new SwiftlyS2.Shared.Sounds.SoundEvent(SoundEvent, volume, 1.0f);
-            sound.SourceEntityIndex = player.PlayerID;
+            sound.SourceEntityIndex = (int)player.Controller.Index;
             sound.Recipients.AddAllPlayers();
             _core.Scheduler.NextTick(() => { sound.Emit(); });
         }
@@ -86,6 +86,7 @@ public class HZBSHelpers
 
         EmitSoundToPlayer(player, sound, volume);
     }
+
 
 
 
